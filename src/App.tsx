@@ -14,15 +14,15 @@ function App() {
         lg: `"nav nav" "aside main"`,
       }}
     >
-      <GridItem area="nav">
+      <GridItem area={"nav"}>
         <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem area="aside">
+        <GridItem area={"aside"}>
           <GenreList />
         </GridItem>
       </Show>
-      <GridItem area="main"></GridItem>
+      <GridItem area={"main"}></GridItem>
       <GameGrid />
     </Grid>
   );
